@@ -1,0 +1,684 @@
+*{
+    box-sizing: border-box;
+}
+
+/* -------------標題----------------- */
+.a {
+    background: url(./images/slide_03.jpg) no-repeat;
+    object-fit: cover;
+    background-size: 100% 100%;
+    width: 100%;
+    /* height: 100%; */
+    /* padding-top: 40px;
+    padding-left: 40px; */
+    /* position: relative; */
+}
+
+.logo {
+    width: 222px;
+    height: 53px;
+    /* padding: 50px; */
+    margin-right: 30px;
+}
+
+/* .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        color: #1e1e1e00;
+    } */
+.nav-menu a {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.664);
+    margin-right: 30px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.nav-menu a:hover {
+    border-bottom: 1px solid rgb(250, 250, 250);
+}
+
+.nav-menu li {
+    margin-top: 20px;
+}
+
+.change-lang {
+    margin-right: 30px;
+    position: fixed;
+    top: 30px;
+    right: 0%;
+}
+
+.change-lang a {
+    color: rgb(77, 73, 73);
+    text-decoration: none;
+    /* margin-right: 5px; */
+}
+.change-lang a:hover{
+    color: black;
+    text-decoration: black;
+}
+.change-lang span:hover{
+    color: black;
+    text-decoration: black;
+}
+.change-lang p{
+    font-size: 2rem;
+    
+}
+
+.change-lang span {
+    color: rgba(36, 35, 35, 0.705);
+}
+
+
+.my-title h3{
+    height: 400px;
+    font-size: 3rem;
+    line-height: 1.6;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: rgba(255, 255, 255, 0.671);
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.my-img-wrap {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 250px;
+
+}
+
+.my-img-wrap img {
+    width: 100%;
+    margin-left: 60px;
+
+}
+/* -----------第一部分 readmore------------- */
+.jumbotron-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.jumbotron-right p {
+    color: #ccc;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.jumbotron-right span {
+    color: white;
+}
+
+/* ---------------------------------------------- */
+.goko {
+    
+    background: url(./images/slide_01.jpg) no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+/* @media only screen and (max-width: 600px) {
+    header {
+        height: 1000vh;
+    }
+} */
+.right-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.right-bottom p {
+    color: #ccc;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.gold {
+    
+    background: url(./images/slide_02.jpg) no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.gold-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.gold-bottom p {
+    color: #ccc;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.city {
+    
+    background: url(./images/slide_03.jpg) no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.city-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.city-bottom p {
+    color: #ccc;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.temple {
+    
+    background: url(./images/slide_04.jpg) no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.temple-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.temple-bottom p {
+    color: #ccc;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.park {
+    
+    background: url(./images/slide_05.jpg) no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.park-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.park-bottom p {
+    color: #ccc;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.iframes{
+    width: 30%;
+    margin-right: 05%;
+}
+.iframes iframe{
+    width: 100%;
+    align-self: center;
+}
+.info-title{
+    width: 10%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1rem;
+    margin-right: 100px;
+}
+.info-title h5{
+    font-size: .8rem;
+    font-weight: 200;
+}
+.info-title p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.info-p{
+    width: 20%;
+}
+.info-p p{
+    margin-bottom: 50px;
+}
+.info-p div{
+    width: 150px;
+    height: 100px;
+}
+.info-p img {
+    width: 100%;
+    height: 70%;
+}
+.rwd-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* ------------------------------圖片區----------------  */
+.pic-t{
+    font-size: 3.3rem;
+    line-height: 2;
+    letter-spacing: .28em;
+
+    margin-bottom: 18px;
+}
+.view1{
+    width: 60%;
+    padding-right: 10px;
+    
+}
+
+.view1 img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.view2{
+    width: 40%;
+   
+
+}
+.view2 img{
+    width: 100%;
+    
+}
+
+.view-3{
+    width: 50%;
+   
+}
+.view-3 img{
+    width: 100%;
+    margin-right: 5px;
+}
+
+.view-4{
+    width: 50%;
+    padding-left: 10px;
+    
+}
+.view-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .my-img-wrap{
+    width: 100%;
+} */
+.view1,.view2,.view-3,.view-4{
+        overflow: hidden;
+    }
+
+/* ------卡片區------------------------------------- */
+.mycard-img-wrap{
+    height: 200px;
+}
+.mycard-img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.my-view-all{
+    width: 150px;
+    height: 70px;
+    margin-left: auto ;
+}
+.my-view-all img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.my-card a{
+    color: black;
+    text-decoration: none;
+}
+.my-card a:hover{
+    text-decoration: none;
+    color:rgb(129, 127, 127);;
+}
+.hotel-time{
+    width: 40%;
+}
+.hotel-time h2{
+    font-size: 3.3rem;
+    line-height: 1.5;
+    letter-spacing: .28em;
+}
+.hotel-time p{
+    font-size: 1.3rem;
+    line-height: 2.27692;
+}
+.hotel-time-btn{
+    margin-top: 30px;
+    width: 150px;
+    height: 60px;
+}
+.hotel-time-btn img{
+    width: 100%;
+    height: 100%;
+}
+.hotel-time-img{
+    width: 60%;
+    padding-left: 10px;
+    align-self: center;
+}
+.hotel-time-img img{
+    width: 100%;
+    /* height: 100%; */
+}
+.order2{
+    order: 2;
+}
+.order1{
+    order: 1;
+}
+
+.vertical{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    
+    margin-top: 50%;
+    padding-right: 10%;
+}
+.vertical h3{
+    font-size: 3.3rem;
+    line-height: 2;
+    letter-spacing: .28em;
+}
+
+/* ----地圖區-------------------------------- */
+.map-text{
+    width: 30%;
+    height: 5%;
+}
+.map {
+    width: 60%;
+}
+.map img {
+    width: 100%;
+}
+.map-text-img{
+    width: 50px;
+    height: 80px;
+
+}
+.map-text-img img{
+    width: 100%;
+}
+.w-60 {
+    width: 70%;
+    font-size: 1.3rem;
+    line-height: 2.27692;
+    letter-spacing: .075em;
+}
+.w-30{
+    width: 20%;
+    margin-top: -100px;
+}
+.w-30 img {
+    width: 100%;
+}
+.pb-10{
+    padding-bottom: 100px;
+}
+.pt-10{
+    padding-top: 100px;
+}
+
+/* ------under-about---------------------------- */
+.under-logo{
+    margin-top: 80px;
+    width: 222px;
+    height: 54.86px;
+}
+.under-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.my-under div{
+    margin-bottom: 80px;
+}
+.my-under a{
+    color: #1e1e1e;
+    margin-right: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+}
+.my-under a:hover{
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* -----贊助商------------------------- */
+.Sponsors span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: -22px;
+    padding-right: 20px;
+    background-color: white;
+}
+.Sponsors-a-style a{
+    color: black;
+    font-size: .8rem;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.Sponsors-a-style a:hover{
+    color: rgba(73, 71, 71, 0.747);
+}
+.Sponsors-a-style li{
+    margin-top: 15px;
+    line-height: 30px;
+}
+.mr-10{
+    margin-right: auto;
+}
+.space{
+    background-color: white;
+    margin-top: -22px;
+    padding-left: 210px;
+}
+
+
+
+/* ------footer------------------------------- */
+
+
+
+section{
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+}
+.section-pd0 {
+    padding: 40px;
+    /* border: 1px solid rgb(121, 119, 119); */
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-pd {
+    padding: 40px 0px;
+    border: 1px solid rgba(121, 119, 119, 0.76);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mr-15{
+    margin-right: 30px;
+}
+.m-20{
+    margin-top: 150px;
+}
+
+section p{
+    font-size: 1.3rem;
+}
+.sm-100{
+    margin: 30px;
+}
+section a{
+    color: white;
+    text-decoration: none;
+}
+section a:hover{
+    color: rgb(83, 81, 81);
+    text-decoration: none;
+}
+
+/* ------------置底標題 */
+
+.bot-menu-p{
+    padding-left:-15px;
+    padding-right: -15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bot-menu{
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    border-right:2px solid #ccc;
+}
+.bot-menu div{
+    color: white;
+}
+.bot-menu-border{
+    text-align: center;
+    border-right:2px solid #ccc;
+    padding: 15px;
+    font-size: .6rem;
+    margin-right: auto;
+}
+.bot-menu-border1{
+    text-align: center;
+    padding: 15px;
+    font-size: .8rem;
+    margin-right: auto;
+   
+}
+.bot-menu-border1 a,.bot-menu-border a{
+    color: white;
+    text-decoration: none;
+}
+.bot-menu-border1 a:hover{
+    color: #ccc;
+}
+.bot-menu-border a:hover{
+    color: #ccc;
+}
+.bot-menu-border3{
+    width: 60%;
+    border: 1px solid white;
+    padding: 30px;
+    margin-left: 215px;
+}
+.foot-c{
+    color: rgba(255, 255, 255, 0.616);
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.foot-c a{
+    color: rgba(255, 255, 255, 0.616);
+}
+.margin-b-60px{
+    margin-bottom: 160px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) { 
+    .iframes{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .info-p{
+        width: 100%;
+        /* margin-bottom: 10px; */
+    }
+    .info-title{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .view1{
+        width: 100%;
+    }
+    .view2{
+        width: 100%;
+        margin-top: 5px;
+        padding-right: 10px;
+    }
+    .view-3{
+        width: 100%;
+    }
+    .view-4{
+        width: 100%;
+        margin-top: 5px;
+        margin-left:-10px;
+        
+    }
+    
+    .change-lang p{
+    font-size: 3rem;
+    }
+    .pic-t{
+        font-size: 2.4rem;
+        line-height: 1.5;
+        letter-spacing: .17em;
+    }
+    .zzz{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    .change-lang p{
+        font-size: 1.3rem;
+    }   
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
